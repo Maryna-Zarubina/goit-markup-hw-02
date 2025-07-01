@@ -1,3 +1,4 @@
+
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -111,6 +112,11 @@
   color: #434455;
 }
 
+.team-section {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
 .team-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -119,9 +125,10 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-}
+  text-transform: capitalize;
+  }
 
-.team-title-name {
+.team-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -131,7 +138,7 @@
   color: #2e2f42;
 }
 
-.team-title-text {
+.team-role {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -139,6 +146,9 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+.team-item {
+  background-color: #ffffff;
 }
 
 .portfolio-section {
@@ -186,9 +196,6 @@
 .footer {
   background-color: #2e2f42;
   } 
-.container-footer {
-    background: #2e2f42;
-}
 
 .footer-logo {
   display: inline-block;
