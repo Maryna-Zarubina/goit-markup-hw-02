@@ -1,11 +1,13 @@
 
+:root {
+  --footer-text-color: #f4f4fd;
+} 
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
 }
 
-}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -76,7 +78,7 @@
   margin-bottom: 48px;
 }
 
-.banner-button {
+.button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -89,8 +91,8 @@
   
 }
 
-.banner-button:hover,
-.banner-button:focus {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
 }
 
@@ -114,14 +116,13 @@
 
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px 0;
-}
+  }
 
 .team-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -198,19 +199,19 @@
   } 
 
 .footer-logo {
-  display: inline-block;
-  font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
    margin-bottom: 16px;
+   text-transform: uppercase;
 }
 
 .footer-logo-accent {
   color: #f4f4fd;
-text-transform: uppercase;
+
 }
 
 .footer-text {
